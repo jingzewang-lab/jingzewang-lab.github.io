@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: Jingze Wang | 王景泽
+plugins:
+  - jekyll-sitemap
