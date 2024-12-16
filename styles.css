@@ -1,0 +1,174 @@
+/* Import Kuhlenbach Font */
+@font-face {
+    font-family: "Kuhlenbach";
+    src: url('fonts/Kuhlenbach.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset Default Margins and Padding */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+html { 
+    height: 101%; 
+}
+
+body { 
+    background: #f2f2f2 url('images/bg-tile.png'); 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 62.5%; /* Base font size = 10px */
+    padding-top: 20px; 
+    padding-bottom: 65px; 
+}
+
+/* Headings */
+h1 { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 3em; 
+    color: #454545; 
+    margin-bottom: 6px; 
+}
+
+h2 { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 2em; 
+    color: #484848; 
+    margin-bottom: 10px; 
+}
+
+h3 { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 1.8em; 
+    color: #777; 
+    margin-bottom: 10px; 
+}
+
+h4 { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 1.75em; 
+    color: #656565; 
+    margin-bottom: 4px; 
+}
+
+/* Paragraph and Small Text */
+p { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 1.8em; 
+    color: #565656; 
+    line-height: 1.4em; 
+    margin-bottom: 15px; 
+    padding-left: 30px; 
+}
+
+small { 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 1.6em; 
+    color: #656565; 
+    display: block; 
+    margin-bottom: 6px; 
+}
+
+/* Lists */
+ul { 
+    display: block; 
+    list-style: disc inside none; 
+    margin-bottom: 25px; 
+}
+
+ul li { 
+    display: list-item; 
+    margin-left: 50px; 
+    font-family: "Kuhlenbach", sans-serif; 
+    font-size: 1.8em; 
+    color: #666; 
+    line-height: 1.4em; 
+    margin-bottom: 10px; 
+}
+
+/* Images */
+img { 
+    border: 0; 
+    max-width: 100%; 
+}
+
+/* Links */
+a { 
+    color: #5582d6; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+/* Core Layout */
+#w { 
+    width: 980px; 
+    margin: 0 auto; 
+    padding: 20px 40px; 
+    background: #fff; 
+    border-bottom-right-radius: 8px; 
+    border-bottom-left-radius: 8px; 
+    -webkit-border-radius: 8px; 
+    -moz-border-radius: 8px; 
+}
+
+/* Header */
+header { 
+    width: 100%; 
+}
+
+/* Personal Settings */
+#info { 
+    float: left; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+
+#photo { 
+    float: right; 
+    margin-right: 20px; 
+}
+
+#photo img { 
+    border-radius: 3px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    padding: 5px; 
+}
+
+/* Skills */
+#skills-left { 
+    display: block; 
+    float: left; 
+    margin-right: 30px; 
+}
+
+#skills-right { 
+    display: block; 
+    float: left; 
+}
+
+/* Clearfix Utility */
+.clearfix:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+.clearfix { 
+    display: inline-block; 
+}
+
+html[xmlns] .clearfix { 
+    display: block; 
+}
+
+* html .clearfix { 
+    height: 1%; 
+}
